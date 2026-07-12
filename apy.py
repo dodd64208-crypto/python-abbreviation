@@ -63,7 +63,7 @@ RULES = {
     "connateder": "ConnectionAbortedError",
     "connrefuseder": "ConnectionRefusedError",
     "pyfinaltioner": "PythonFinalizationError",
-    "baseexgroup": "BaseExceptionGroup",
+    "baseexgroup": "BaseExceptionGroup", #<-- it's not sex
 }
 
 def transform_source(data: bytes) -> bytes:
